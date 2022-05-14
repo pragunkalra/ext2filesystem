@@ -1,0 +1,137 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BLKSIZE	/root/level1/type.h	15;"	d
+DIR	/root/level1/type.h	/^typedef struct ext2_dir_entry_2 DIR;$/;"	t	typeref:struct:ext2_dir_entry_2
+FREE	/root/level1/type.h	11;"	d
+GD	/root/level1/type.h	/^typedef struct ext2_group_desc  GD;$/;"	t	typeref:struct:ext2_group_desc
+INODE	/root/level1/type.h	/^  INODE INODE;$/;"	m	struct:minode
+INODE	/root/level1/type.h	/^typedef struct ext2_inode       INODE;$/;"	t	typeref:struct:ext2_inode
+MINODE	/root/level1/type.h	/^}MINODE;$/;"	t	typeref:struct:minode
+MODE_APPEND	/root/level1/open_close.c	7;"	d	file:
+MODE_R	/root/level1/open_close.c	4;"	d	file:
+MODE_RW	/root/level1/open_close.c	6;"	d	file:
+MODE_W	/root/level1/open_close.c	5;"	d	file:
+MTABLE	/root/level1/type.h	/^}MTABLE;$/;"	t	typeref:struct:mtable
+MT_SIZE	/root/level1/type.h	14;"	d
+NFD	/root/level1/type.h	17;"	d
+NMINODE	/root/level1/type.h	16;"	d
+NOFT	/root/level1/type.h	18;"	d
+NPROC	/root/level1/type.h	19;"	d
+OFT	/root/level1/type.h	/^}OFT;$/;"	t	typeref:struct:oft
+PROC	/root/level1/type.h	/^}PROC;$/;"	t	typeref:struct:proc
+READY	/root/level1/type.h	12;"	d
+SUPER	/root/level1/type.h	/^typedef struct ext2_super_block SUPER;$/;"	t	typeref:struct:ext2_super_block
+SUPER_USER	/root/level1/type.h	21;"	d
+balloc	/root/level1/alloc_dalloc.c	/^int balloc(int dev) {$/;"	f
+bdalloc	/root/level1/alloc_dalloc.c	/^int bdalloc(int dev, int blk) \/\/ deallocate a blk number$/;"	f
+bmap	/root/level1/type.h	/^    int bmap;$/;"	m	struct:mtable
+bmap	/root/level1/type.h	/^int nblocks, ninodes, bmap, imap, inode_start; \/\/ disk parameters$/;"	v
+ch_dir	/root/level1/cd_ls_pwd.c	/^int ch_dir(char *pathname)   $/;"	f
+close_file	/root/level1/open_close.c	/^int close_file(int fd)$/;"	f
+clr_bit	/root/level1/alloc_dalloc.c	/^void clr_bit(char *buf, int bit){buf[bit\/8] &= ~(1 << (bit % 8));}$/;"	f
+commands	/root/level1/type.h	/^char * commands[] = {"ls",$/;"	v
+create_file	/root/level1/mkdir_creat.c	/^int create_file(char *path) $/;"	f
+cwd	/root/level1/type.h	/^  MINODE      *cwd;$/;"	m	struct:proc
+dev	/root/level1/type.h	/^    int dev;$/;"	m	struct:mtable
+dev	/root/level1/type.h	/^  int dev, ino;$/;"	m	struct:minode
+dev	/root/level1/type.h	/^int fd, dev;$/;"	v
+devName	/root/level1/type.h	/^    char devName[64];$/;"	m	struct:mtable
+dirty	/root/level1/type.h	/^  int dirty;$/;"	m	struct:minode
+dp	/root/level1/type.h	/^DIR   *dp;   $/;"	v
+enter_name	/root/level1/mkdir_creat.c	/^int enter_name(MINODE *pmip, int myino, char *myname){$/;"	f
+fd	/root/level1/type.h	/^  OFT         *fd[NFD];$/;"	m	struct:proc
+fd	/root/level1/type.h	/^int fd, dev;$/;"	v
+findino	/root/level1/util.c	/^int findino(MINODE *mip, u32 *myino) \/\/ myino = ino of . return ino of ..$/;"	f
+findmyname	/root/level1/util.c	/^int findmyname(MINODE *parent, u32 myino, char *myname) $/;"	f
+free_blocks	/root/level1/type.h	/^    int free_blocks;$/;"	m	struct:mtable
+free_inodes	/root/level1/type.h	/^    int free_inodes;$/;"	m	struct:mtable
+get_block	/root/level1/util.c	/^int get_block(int dev, int blk, char *buf)$/;"	f
+getino	/root/level1/util.c	/^int getino(char *pathname)$/;"	f
+gid	/root/level1/type.h	/^  int          uid, gid;$/;"	m	struct:proc
+gp	/root/level1/type.h	/^GD    *gp;$/;"	v
+gpath	/root/level1/type.h	/^char gpath[128]; \/\/ global for tokenized components$/;"	v
+ialloc	/root/level1/alloc_dalloc.c	/^int ialloc(int dev) {$/;"	f
+iblock	/root/level1/type.h	/^    int iblock;$/;"	m	struct:mtable
+idalloc	/root/level1/alloc_dalloc.c	/^int idalloc(int dev, int ino)  \/\/ deallocate an ino number$/;"	f
+iget	/root/level1/util.c	/^MINODE *iget(int dev, int ino)$/;"	f
+iget_mp	/root/level1/util.c	/^MINODE * iget_mp(char *pathname)$/;"	f
+imap	/root/level1/type.h	/^    int imap;$/;"	m	struct:mtable
+imap	/root/level1/type.h	/^int nblocks, ninodes, bmap, imap, inode_start; \/\/ disk parameters$/;"	v
+init	/root/level1/main.c	/^int init()$/;"	f
+ino	/root/level1/type.h	/^  int dev, ino;$/;"	m	struct:minode
+inode_start	/root/level1/type.h	/^int nblocks, ninodes, bmap, imap, inode_start; \/\/ disk parameters$/;"	v
+ip	/root/level1/type.h	/^INODE *ip;$/;"	v
+iput	/root/level1/util.c	/^void iput(MINODE *mip)$/;"	f
+ls	/root/level1/cd_ls_pwd.c	/^void ls(char *pathname)$/;"	f
+main	/root/level1/main.c	/^int main(int argc, char *argv[ ])$/;"	f
+make_dir	/root/level1/mkdir_creat.c	/^int make_dir(char *path) $/;"	f
+minode	/root/level1/type.h	/^MINODE minode[NMINODE];$/;"	v
+minode	/root/level1/type.h	/^typedef struct minode{$/;"	s
+mntDirPtr	/root/level1/type.h	/^    MINODE *mntDirPtr;$/;"	m	struct:mtable
+mntName	/root/level1/type.h	/^    char mntName[64];$/;"	m	struct:mtable
+mode	/root/level1/type.h	/^  int  mode;$/;"	m	struct:oft
+mount_root	/root/level1/main.c	/^int mount_root(char * rootdev)$/;"	f
+mounted	/root/level1/type.h	/^  int mounted;$/;"	m	struct:minode
+mp	/root/level1/type.h	/^MTABLE *mp;$/;"	v
+mptr	/root/level1/type.h	/^  MINODE *mptr;$/;"	m	struct:oft
+mptr	/root/level1/type.h	/^  struct mtable *mptr;$/;"	m	struct:minode	typeref:struct:minode::mtable
+mtable	/root/level1/type.h	/^MTABLE mtable[MT_SIZE];$/;"	v
+mtable	/root/level1/type.h	/^typedef struct mtable{$/;"	s
+my_access	/root/level1/util.c	/^int my_access(char *pathname, char mode) \/\/ mode ='r', 'w', 'x' $/;"	f
+my_cat	/root/level1/read_cat.c	/^int my_cat(char *path)$/;"	f
+my_cp	/root/level1/write_cp.c	/^int my_cp(char *src, char*dest)$/;"	f
+my_creat	/root/level1/mkdir_creat.c	/^int my_creat(MINODE *pmip, char *child)$/;"	f
+my_link	/root/level1/link_unlink.c	/^int my_link(char *old_file, char *new_file)$/;"	f
+my_lseek	/root/level1/open_close.c	/^int my_lseek(int fd, int position)$/;"	f
+my_maccess	/root/level1/util.c	/^int my_maccess(MINODE *mip, char mode) \/\/ mode ='r', 'w', 'x' $/;"	f
+my_mkdir	/root/level1/mkdir_creat.c	/^int my_mkdir(MINODE *pip, char *child)$/;"	f
+my_pfd	/root/level1/open_close.c	/^int my_pfd(void)$/;"	f
+my_read	/root/level1/read_cat.c	/^int my_read(int fd, char buf[], int nbytes, int verbose)$/;"	f
+my_readlink	/root/level1/symlink.c	/^int my_readlink(char *pathname, char buf[])$/;"	f
+my_rmdir	/root/level1/rmdir.c	/^int my_rmdir(char * path){$/;"	f
+my_sw	/root/level1/util.c	/^void my_sw(void)$/;"	f
+my_symlink	/root/level1/symlink.c	/^int my_symlink(char *old_file, char *new_file)$/;"	f
+my_truncate	/root/level1/util.c	/^int my_truncate(MINODE * mip)$/;"	f
+my_unlink	/root/level1/link_unlink.c	/^int my_unlink(char *pathname)$/;"	f
+my_write	/root/level1/write_cp.c	/^int my_write(int fd, char buf[], int nbytes)$/;"	f
+n	/root/level1/type.h	/^int   n;         \/\/ number of component strings$/;"	v
+name	/root/level1/type.h	/^char *name[32];  \/\/ assume at most 32 components in pathname$/;"	v
+nblocks	/root/level1/type.h	/^    int nblocks;$/;"	m	struct:mtable
+nblocks	/root/level1/type.h	/^int nblocks, ninodes, bmap, imap, inode_start; \/\/ disk parameters$/;"	v
+next	/root/level1/type.h	/^  struct proc *next;$/;"	m	struct:proc	typeref:struct:proc::proc
+ninodes	/root/level1/type.h	/^    int ninodes;$/;"	m	struct:mtable
+ninodes	/root/level1/type.h	/^int nblocks, ninodes, bmap, imap, inode_start; \/\/ disk parameters$/;"	v
+offset	/root/level1/type.h	/^  int  offset;$/;"	m	struct:oft
+oft	/root/level1/type.h	/^OFT    oft[NOFT];$/;"	v
+oft	/root/level1/type.h	/^typedef struct oft{$/;"	s
+open_file	/root/level1/open_close.c	/^int open_file(char *path, int mode)$/;"	f
+pid	/root/level1/type.h	/^  int          pid;$/;"	m	struct:proc
+print_directory	/root/level1/cd_ls_pwd.c	/^void print_directory(MINODE *mip)$/;"	f
+print_info	/root/level1/cd_ls_pwd.c	/^void print_info(MINODE *mip, char *name)$/;"	f
+proc	/root/level1/type.h	/^PROC   proc[NPROC], *running;$/;"	v
+proc	/root/level1/type.h	/^typedef struct proc{$/;"	s
+put_block	/root/level1/util.c	/^int put_block(int dev, int blk, char *buf)$/;"	f
+pwd	/root/level1/cd_ls_pwd.c	/^int pwd(MINODE *wd)$/;"	f
+quit	/root/level1/main.c	/^int quit()$/;"	f
+read_file	/root/level1/read_cat.c	/^int read_file(int fd, int nbytes)$/;"	f
+refCount	/root/level1/type.h	/^  int  refCount;$/;"	m	struct:oft
+refCount	/root/level1/type.h	/^  int refCount;$/;"	m	struct:minode
+rm_child	/root/level1/rmdir.c	/^int rm_child(MINODE *pip, char *name){$/;"	f
+root	/root/level1/type.h	/^MINODE *root;$/;"	v
+rpwd	/root/level1/cd_ls_pwd.c	/^int rpwd(MINODE *wd)$/;"	f
+running	/root/level1/type.h	/^PROC   proc[NPROC], *running;$/;"	v
+search	/root/level1/util.c	/^int search(MINODE *mip, char *name)$/;"	f
+set_bit	/root/level1/alloc_dalloc.c	/^int set_bit(char *buf, int bit) { buf[bit \/ 8] |= (1 << (bit % 8)); }$/;"	f
+sp	/root/level1/type.h	/^SUPER *sp;$/;"	v
+status	/root/level1/type.h	/^  int          status;$/;"	m	struct:proc
+tokenize	/root/level1/util.c	/^int tokenize(char *pathname)$/;"	f
+tst_bit	/root/level1/alloc_dalloc.c	/^int tst_bit(char *buf, int bit) { return buf[bit \/ 8] & (1 << (bit % 8)); }$/;"	f
+u16	/root/level1/type.h	/^typedef unsigned short u16;$/;"	t
+u32	/root/level1/type.h	/^typedef unsigned int   u32;$/;"	t
+u8	/root/level1/type.h	/^typedef unsigned char  u8;$/;"	t
+uid	/root/level1/type.h	/^  int          uid, gid;$/;"	m	struct:proc
+write_file	/root/level1/write_cp.c	/^int write_file(int fd, char *str)$/;"	f
